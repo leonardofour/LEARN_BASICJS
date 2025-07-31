@@ -15,3 +15,12 @@ const getComments = async () => {
 }
 
 getComments()
+
+const getAlbums = async () => {
+    const result = await fetch('https://jsonplaceholder.typicode.com/albums')
+       const resultObj =  await result.json ()
+       console.log (resultObj[0].title)
+}
+
+getAlbums()
+
