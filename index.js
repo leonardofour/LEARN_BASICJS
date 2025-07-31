@@ -24,3 +24,10 @@ const getAlbums = async () => {
 
 getAlbums()
 
+const getPhotos = async () => {
+    const result = await fetch('https://jsonplaceholder.typicode.com/photos')
+       const resultObj =  await result.json ()
+       console.log (resultObj[0].url)
+}
+
+getPhotos()
