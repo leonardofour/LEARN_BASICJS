@@ -31,3 +31,12 @@ const getPhotos = async () => {
 }
 
 getPhotos()
+
+const getTodos = async () => {
+    const result = await fetch('https://jsonplaceholder.typicode.com/todos')
+       const resultObj =  await result.json ()
+       console.log (resultObj[0].title)
+       console.log (resultObj[0].completed)
+}
+
+getTodos()
