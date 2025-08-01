@@ -1,51 +1,51 @@
-const getData = async () => {
-    const result = await fetch('https://jsonplaceholder.typicode.com/posts')
-        const resultObj = await result.json ()
-        console.log (resultObj[1].title);
-        console.log (resultObj[1].body);
-}
+// const getData = async () => {
+//     const result = await fetch('https://jsonplaceholder.typicode.com/posts')
+//         const resultObj = await result.json ()
+//         console.log (resultObj[1].title);
+//         console.log (resultObj[1].body);
+// }
 
-getData()
+// getData()
 
-const getComments = async () => {
-    const result = await fetch('https://jsonplaceholder.typicode.com/comments')
-       const resultObj =  await result.json ()
-       console.log (resultObj[0].email)
-       console.log (resultObj[0].body)
-}
+// const getComments = async () => {
+//     const result = await fetch('https://jsonplaceholder.typicode.com/comments')
+//        const resultObj =  await result.json ()
+//        console.log (resultObj[0].email)
+//        console.log (resultObj[0].body)
+// }
 
-getComments()
+// getComments()
 
-const getAlbums = async () => {
-    const result = await fetch('https://jsonplaceholder.typicode.com/albums')
-       const resultObj =  await result.json ()
-       console.log (resultObj[0].title)
-}
+// const getAlbums = async () => {
+//     const result = await fetch('https://jsonplaceholder.typicode.com/albums')
+//        const resultObj =  await result.json ()
+//        console.log (resultObj[0].title)
+// }
 
-getAlbums()
+// getAlbums()
 
-const getPhotos = async () => {
-    const result = await fetch('https://jsonplaceholder.typicode.com/photos')
-       const resultObj =  await result.json ()
-       console.log (resultObj[0].url)
-}
+// const getPhotos = async () => {
+//     const result = await fetch('https://jsonplaceholder.typicode.com/photos')
+//        const resultObj =  await result.json ()
+//        console.log (resultObj[0].url)
+// }
 
-getPhotos()
+// getPhotos()
 
-const getTodos = async () => {
-    const result = await fetch('https://jsonplaceholder.typicode.com/todos')
-       const resultObj =  await result.json ()
-       console.log (resultObj[0].title)
-       console.log (resultObj[0].completed)
-}
+// const getTodos = async () => {
+//     const result = await fetch('https://jsonplaceholder.typicode.com/todos')
+//        const resultObj =  await result.json ()
+//        console.log (resultObj[0].title)
+//        console.log (resultObj[0].completed)
+// }
 
-getTodos()
+// getTodos()
 
-const getUsers = async () => {
-    const result = await fetch('https://jsonplaceholder.typicode.com/users')
-       const resultObj =  await result.json ()
-       console.log (resultObj[0].username)
-       console.log (resultObj[0].email)
-}
+// const getUsers = async () => {
+//     const result = await fetch('https://jsonplaceholder.typicode.com/users')
+//        const resultObj =  await result.json ()
+//        console.log (resultObj[0].username)
+//        console.log (resultObj[0].email)
+// }
 
-getUsers()
+// getUsers()
